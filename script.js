@@ -75,9 +75,6 @@ tl.to(".page1 h1", {
 tl.to(".page1 h2", {
     x: 100
 }, "anim")
-tl.to(".page1 video", {
-    width: "90%"
-}, "anim")
 
 var tl2 = gsap.timeline({
     scrollTrigger: {
